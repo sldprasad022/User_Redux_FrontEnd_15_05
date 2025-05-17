@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import SaveUser from './Components/SaveUser'
+import TotalUsers from './Components/TotalUsers'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
     
 
     <SaveUser/>
+    <TotalUsers/>
       
     </>
   )

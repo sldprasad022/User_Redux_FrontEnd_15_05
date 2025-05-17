@@ -13,6 +13,13 @@ const SaveUser = () => {
     password:''
   });
 
+
+  // const formObj = new FormData();
+  // for(const[key,value] of Object.entries(formData))
+  // {
+  //   formObj.append(key,value);
+  // }
+
   const dispatch = useDispatch();
 
 
