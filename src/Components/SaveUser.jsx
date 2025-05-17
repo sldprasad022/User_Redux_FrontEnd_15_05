@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
+import { addUser } from './UsersSlice';
 
 const SaveUser = () => {
 
@@ -29,12 +30,7 @@ const SaveUser = () => {
   const handleSubmit= (e)=>{
       e.preventDefault();
 
-
-
-      dispatch(add)
-
-
-
+      dispatch(addUser(formData))
 
       setFormData({
         userName:'',
